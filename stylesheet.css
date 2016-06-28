@@ -24,27 +24,30 @@ h2 {
 .fruitBar {
   border-bottom: 1px solid #000;
 }
-
+.fruitGrid li{
+  display: inline-block;
+}
 .fruitBox {
   width: 100px;
   height: 100px;
   display: inline-block;
   border: 1px solid #000;
+  margin-left: 5px;
 }
 
-.grape {
+.grapeColor {
   background-color: purple;
 }
 
-.apple {
+.appleColor {
   background-color: red;
 }
 
-.banana {
+.bananaColor {
   background-color: yellow;
 }
 
-.orange {
+.orangeColor {
   background-color: orange;
 }
 
