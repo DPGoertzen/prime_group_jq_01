@@ -1,0 +1,53 @@
+body {
+	font: 0.75em Helvetica, sans-serif;
+	width: 60%;
+	margin: 40px auto 60px auto;
+	padding: 0;
+}
+
+#container {
+  border: 1px solid #000;
+}
+
+h1 {
+	font-size: 1.5em;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	/*border-bottom: 1px solid #000;*/
+}
+
+h2 {
+	font-size: 1.25em;
+	font-weight: lighter;
+}
+
+.fruitBar {
+  border-bottom: 1px solid #000;
+}
+
+.fruitBox {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border: 1px solid #000;
+}
+
+.grape {
+  background-color: purple;
+}
+
+.apple {
+  background-color: red;
+}
+
+.banana {
+  background-color: yellow;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.underline {
+  border-bottom: 1px solid #8C001A;
+}
