@@ -39,7 +39,7 @@ $(document).ready(function(){
 
 	var timeID = 0;
 	var secondID = 0;
-	var timeForGame = 10000;
+	var timeForGame = 30000;
 	// sets up our timer, currently 5 seconds.
 	// var timeID = setInterval(fruitUpdater, 5000);
 	// setInterval(gameOver, 30000);
