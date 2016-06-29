@@ -16,7 +16,9 @@
 
 		<header>
 			<h1>Fruit Stand: The Game</h1>
-			<p>Here are the rules for our game....</p>
+			<p>Buy and sell fruit in the time allotted.</p>
+			<button class="startBut">Start!</button>
+			<p class="timer"></p>
 		</header>
 
 		<main>
@@ -40,8 +42,8 @@
 					</li>
 				</ul>
 			</div>
-
-			<div class="playerUI">
+<!--Brian/Donovan HTML  -->
+			<!-- <div class="playerUI">
 				<p class="playerMoney">Money: $100 </p>
 				<ul class="playerInventory">
 					<li class="grapesOwned">
@@ -58,8 +60,44 @@
 					</li>
 				</ul>
 				</div>
-				
-			</div>
+			</div> -->
+	<!--end B/D  -->
+
+<!--Trent HTML  -->
+<div class="playerUI">
+                <ul class="playerInventory">
+                    <li>
+                        <p>Grapes: <span id="grapesOwned">0</span></p>
+                        <p>Average Purchased Price: $<span id="avgGrape">0</span></p>
+												<button id="grapeBut">Sell Grapes</button>
+                    </li>
+
+                    <li>
+                        <p>Apples: <span id="applesOwned">0<span></p>
+                        <p>Average Purchased Price: $<span id="avgApple">0</span></p>
+												<button id="appleBut">Sell Apples</button>
+                    </li>
+
+                    <li>
+                        <p>Bananas: <span id="bananasOwned">0<span></p>
+                        <p>Average Purchased Price: $<span id="avgBanana">0</span></p>
+												<button id="bananaBut">Sell Bananas</button>
+                    </li>
+
+                    <li>
+                        <p>Oranges: <span id="orangesOwned">0<span></p>
+                        <p>Average Purchased Price: $<span id="avgOrange">0</span></p>
+												<button id="orangeBut">Sell Oranges</button>
+                    </li>
+
+                </ul>
+                <p class="center">Money: $<span id="playerMoney">100</span></p>
+            </div>
+            <div class="displayMessage">
+                <h4 class="center">Good Luck!</h4>
+            </div>
+
+	<!--End Trent HTML  -->
 		</main>
 	</div>
 
