@@ -1,17 +1,22 @@
 body {
-	font: 0.75em Helvetica, sans-serif;
-	width: 60%;
-	margin: 40px auto 60px auto;
-	padding: 0;
+	font-size: 1em;
+  font-family: 'Lato', sans-serif;
 }
 
 #container {
   border: 1px solid #000;
+  width: 60%;
+	margin: 40px auto 60px auto;
+	padding: 5px;
+}
+
+header {
+  border-bottom: 1px solid #000;
 }
 
 h1 {
 	font-size: 1.5em;
-	font-weight: lighter;
+	font-weight: 700;
 	letter-spacing: 2px;
 	/*border-bottom: 1px solid #000;*/
 }
@@ -24,30 +29,42 @@ h2 {
 .fruitBar {
   border-bottom: 1px solid #000;
 }
-
+.fruitGrid li{
+  display: inline-block;
+  margin-left: 25px;
+  text-align: center;
+}
 .fruitBox {
   width: 100px;
   height: 100px;
   display: inline-block;
   border: 1px solid #000;
+  margin-left: 5px;
 }
 
-.grape {
-  background-color: purple;
+.icon {
+  width: 100px;
+  height: 100px;
+  vertical-align: middle;
+  opacity: 0.3;
 }
 
-.apple {
-  background-color: red;
+.grapeColor {
+  background-color: mediumpurple;
 }
 
-.banana {
-  background-color: yellow;
+.appleColor {
+  background-color: crimson;
 }
 
-.orange {
+.bananaColor {
+  background-color: gold;
+}
+
+.orangeColor {
   background-color: orange;
 }
 
-.underline {
+/*.underline {
   border-bottom: 1px solid #8C001A;
-}
+}*/
