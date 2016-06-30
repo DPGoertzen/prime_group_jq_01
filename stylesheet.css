@@ -1,17 +1,22 @@
 body {
-	font: 0.75em Helvetica, sans-serif;
-	width: 60%;
-	margin: 40px auto 60px auto;
-	padding: 0;
+	font-size: 1em;
+  font-family: 'Lato', sans-serif;
 }
 
 #container {
   border: 1px solid #000;
+  width: 95%;
+	margin: 40px auto 60px auto;
+	padding: 5px;
+}
+
+header {
+  border-bottom: 1px solid #000;
 }
 
 h1 {
 	font-size: 1.5em;
-	font-weight: lighter;
+	font-weight: 700;
 	letter-spacing: 2px;
 	/*border-bottom: 1px solid #000;*/
 }
@@ -22,10 +27,15 @@ h2 {
 }
 
 .fruitBar {
-  border-bottom: 1px solid #000;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .fruitGrid li{
   display: inline-block;
+  margin-left: 25px;
+  text-align: center;
 }
 .fruitBox {
   width: 100px;
@@ -34,59 +44,75 @@ h2 {
   border: 1px solid #000;
   margin-left: 5px;
 }
-.fruitBox img{
-	width: 100px;
-	height: 100px;
-}
 
-.grapeColor {
-	opacity: .5;
-  background-color: purple;
-}
-
-.appleColor {
-	opacity: .5;
-  background-color: red;
-}
-
-.bananaColor {
-	opacity: .5;
-  background-color: yellow;
-}
-
-.orangeColor {
-	opacity: .5;
-  background-color: orange;
+.icon {
+  width: 100px;
+  height: 100px;
+  vertical-align: middle;
+  opacity: 0.3;
 }
 
 .grapeColor:hover {
-	opacity: 1;
-  background-color: purple;
+  background-color: mediumpurple;
+  opacity: 1;
 }
 
 .appleColor:hover {
-	opacity: 1;
-  background-color: red;
+  background-color: crimson;
+  opacity: 1;
 }
 
 .bananaColor:hover {
-	opacity: 1;
-  background-color: yellow;
+  background-color: gold;
+  opacity: 1;
 }
 
 .orangeColor:hover {
-	opacity: 1;
   background-color: orange;
+  opacity: 1;
 }
 
-.colorHighlight{
-	background-color: burlywood;
+.grapeColor {
+  background-color: mediumpurple;
+  opacity: .5;
 }
 
-.underline {
-  border-bottom: 1px solid #8C001A;
+.appleColor {
+  background-color: crimson;
+  opacity: .5;
 }
-.playerInventory li{
-	display: inline-block;
-	margin: 0 auto;
+
+.bananaColor {
+  background-color: gold;
+  opacity: .5;
+}
+
+.orangeColor {
+  background-color: orange;
+  opacity: .5;
+}
+
+
+.colorHighlight {
+  background-color: burlywood;
+}
+
+.playerInventory {
+  border-top: 1px solid #000;
+}
+
+.playerInventory li {
+  display: inline-block;
+  padding-left: 25px;
+  border-left: 1px solid #000;
+  margin-left: 15px;
+}
+
+.center {
+  text-align: center;
+}
+
+
+.restart {
+  margin-bottom: 10px;
 }

@@ -39,14 +39,14 @@ $(document).ready(function(){
 
 	var timeID = 0;
 	var secondID = 0;
-	var timeForGame = 300000;
+	var timeForGame = 30000;
 	// sets up our timer, currently 5 seconds.
 	// var timeID = setInterval(fruitUpdater, 5000);
 	// setInterval(gameOver, 30000);
 
 	$(".startBut").on("click", function(){
 		fruitUpdater();
-		timeID = setInterval(fruitUpdater, 15000);
+		timeID = setInterval(fruitUpdater, 5000);
 		secondID = setInterval(timeDisplay, 1000);
 		setTimeout(gameOver, timeForGame);
 
@@ -75,6 +75,8 @@ $(document).ready(function(){
 			// console.log(fruitArray[i].type + "Price");
 		}
 	};
+
+	// remember to change this to 300000 at turn in
 
 
 	function gameOver(){
@@ -171,7 +173,7 @@ $(".orangeColor").on("click",function(event){
     }
 });
 
-
+//Selling Buttons
 $("#grapeBut").on("click", function(event){
     event.preventDefault();
     if(grapeCount>0){
