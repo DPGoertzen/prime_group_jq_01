@@ -34,23 +34,58 @@ h2 {
   border: 1px solid #000;
   margin-left: 5px;
 }
+.fruitBox img{
+	width: 100px;
+	height: 100px;
+}
 
 .grapeColor {
+	opacity: .5;
   background-color: purple;
 }
 
 .appleColor {
+	opacity: .5;
   background-color: red;
 }
 
 .bananaColor {
+	opacity: .5;
   background-color: yellow;
 }
 
 .orangeColor {
+	opacity: .5;
   background-color: orange;
+}
+
+.grapeColor:hover {
+	opacity: 1;
+  background-color: purple;
+}
+
+.appleColor:hover {
+	opacity: 1;
+  background-color: red;
+}
+
+.bananaColor:hover {
+	opacity: 1;
+  background-color: yellow;
+}
+
+.orangeColor:hover {
+	opacity: 1;
+  background-color: orange;
+}
+
+.colorHighlight{
+	background-color: burlywood;
 }
 
 .underline {
   border-bottom: 1px solid #8C001A;
+}
+.playerInventory li{
+	display: inline-block;
 }

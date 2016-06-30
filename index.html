@@ -6,41 +6,82 @@
 
 		<meta name="description" content="Webpage">
 		<link href="stylesheet.css" rel="stylesheet">
-
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
 		<script src="jquery.min.js"></script>
 		<script src="script.js"></script>
 	</head>
 
 	<body>
 		<div id="container">
+
 		<header>
 			<h1>Fruit Stand: The Game</h1>
-			<p>Here are the rules for our game....</p>
+			<p>Buy and sell fruit in the time allotted.</p>
+			<button class="startBut">Start!</button>
+			<p class="timer"></p>
 		</header>
 
 		<main>
 			<div class="fruitBar">
 				<ul class="fruitGrid">
 					<li>
-						<div class="fruitBox grapeColor"></div>
+						<div class="fruitBox grapeColor"><img class="icon" src="icons/grapes_icon.png"></div>
 						<p class="grapePrice">Price: $0.00</p>
 					</li>
 					<li>
-						<div class="fruitBox appleColor"></div>
+						<div class="fruitBox appleColor"><img class="icon" src="icons/apple_icon.png"></div>
 						<p class="applePrice">Price: $0.00</p>
 					</li>
 					<li>
-						<div class="fruitBox bananaColor"></div>
+						<div class="fruitBox bananaColor"><img class="icon" src="icons/banana_icon.png"></div>
 						<p class="bananaPrice">Price: $0.00</p>
 					</li>
 					<li>
-						<div class="fruitBox orangeColor"></div>
+						<div class="fruitBox orangeColor"><img class="icon" src="icons/orange_icon.png"></div>
+
 						<p class="orangePrice">Price: $0.00</p>
 					</li>
 				</ul>
 			</div>
-		</main>
 
+
+<!--Trent HTML  -->
+<div class="playerUI">
+                <ul class="playerInventory">
+                    <li>
+                        <p>Grapes: <span id="grapesOwned">0</span></p>
+                        <p>Average Purchased Price: $<span id="avgGrape">0</span></p>
+												<button id="grapeBut">Sell Grapes</button>
+                    </li>
+
+                    <li>
+                        <p>Apples: <span id="applesOwned">0<span></p>
+                        <p>Average Purchased Price: $<span id="avgApple">0</span></p>
+												<button id="appleBut">Sell Apples</button>
+                    </li>
+
+                    <li>
+                        <p>Bananas: <span id="bananasOwned">0<span></p>
+                        <p>Average Purchased Price: $<span id="avgBanana">0</span></p>
+												<button id="bananaBut">Sell Bananas</button>
+                    </li>
+
+                    <li>
+                        <p>Oranges: <span id="orangesOwned">0<span></p>
+                        <p>Average Purchased Price: $<span id="avgOrange">0</span></p>
+												<button id="orangeBut">Sell Oranges</button>
+                    </li>
+
+                </ul>
+                <p class="center">Money: $<span id="playerMoney">100</span></p>
+            </div>
+            <div class="displayMessage">
+                <h4 class="center">Good Luck!</h4>
+            </div>
+
+	<!--End Trent HTML  -->
+		</main>
 	</div>
+
 	</body>
 </html>
