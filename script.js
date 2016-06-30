@@ -76,8 +76,6 @@ $(document).ready(function(){
 		}
 	};
 
-	// remember to change this to 300000 at turn in
-
 
 	function gameOver(){
 		clearInterval(timeID);
@@ -106,10 +104,6 @@ $(document).ready(function(){
 		});
 		gameEnd = true;
 	}
-
-
-
-// Begin Trent Code
 
 //purchasing Buttons
 $(".grapeColor").on("click",function(event){
@@ -177,7 +171,7 @@ $(".orangeColor").on("click",function(event){
     }
 });
 
-//Selling Buttons
+
 $("#grapeBut").on("click", function(event){
     event.preventDefault();
     if(grapeCount>0){
@@ -239,7 +233,7 @@ $("#orangeBut").on("click", function(event){
     }
 });
 
-// End Trent code
+
 
 
 });
