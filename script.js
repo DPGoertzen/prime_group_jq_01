@@ -39,14 +39,14 @@ $(document).ready(function(){
 
 	var timeID = 0;
 	var secondID = 0;
-	var timeForGame = 30000;
+	var timeForGame = 300000;
 	// sets up our timer, currently 5 seconds.
 	// var timeID = setInterval(fruitUpdater, 5000);
 	// setInterval(gameOver, 30000);
 
 	$(".startBut").on("click", function(){
 		fruitUpdater();
-		timeID = setInterval(fruitUpdater, 5000);
+		timeID = setInterval(fruitUpdater, 15000);
 		secondID = setInterval(timeDisplay, 1000);
 		setTimeout(gameOver, timeForGame);
 

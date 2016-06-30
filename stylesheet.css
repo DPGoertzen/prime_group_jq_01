@@ -88,4 +88,5 @@ h2 {
 }
 .playerInventory li{
 	display: inline-block;
+	margin: 0 auto;
 }
